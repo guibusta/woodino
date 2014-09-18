@@ -1,0 +1,29 @@
+Instruções:
+
+1) ESTRUTURA DE PASTAS
+
+As pastas contendo as mídias são organizadas de acordo com o número do sensor e estão
+dentro da pasta "media", a partir da raiz onde está sendo executado o
+código PHP no servidor. Elas são criadas automaticamente caso não existam.
+
+Exemplos de estrutura:
+
+/media/sensor_98301
+/media/sensor_32
+
+2) COMUNICAÇÃO COM O BANCO DE DADOS
+
+Foram construídas duas páginas em html para testes e servem de exemplo sobre o funcionamento
+do código. O método de envio dos dados para o PHP que controla as mídias é através do $_POST.
+
+Basicamente as variáveis necessárias para envio dos dados são os seguintes (finalidade / nome da variável):
+
+   Upload
+      arquivo: file
+      id do sensor: sensor_id
+      
+   Download
+      nome do arquivo: file
+      id do sensor: sensor_id
+
+
